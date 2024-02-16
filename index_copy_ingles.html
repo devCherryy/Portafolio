@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cherry Coa" />
+    <meta
+      name="description"
+      content="Portafolio de un desarrollador Front-End sin utilizar ningun framework"
+    />
+    <meta name="keywords" content="Desarrollo, Front-End, Portafolio" />
+    <meta name="theme-color" content="#09f" />
+    <!-- Iconos -->
+    <!-- https://boxicons.com/  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Cherry Coa</title>
+    <link rel="shortcut icon" href="/assets/img/1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/style2.css">
+    <script type="module" src="assets/js/main2.js" defer></script>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+    emailjs.init('urcynT5pnxdoL0re4')
+    </script>
+    
+</head>
+
+
+<body>
+    
+  <header class="header">
+    <nav class="navbar grid--container">
+      <a class="navbar__logo" href="#"><i class='bx bxs-registered'></i>Cherry</a>
+
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class="bx bx-x btn__close navbar__icon"></i></a>
+
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a class="navbar__link active" href="#home">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">About me</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#projects">Portfolio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__toggles">
+        <div class="navbar__toggle--darkmode">
+          <input type="checkbox" id="darkmode-toggle" class="navbar__toggle--darkmode-input" />
+          <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+            <i class='bx bx-sun navbar__toggle--darkmode-sun'></i>
+            <i class='bx bx-moon navbar__toggle--darkmode-moon'></i>
+          </label>
+        </div>
+        <div class="navbar__toggle--language">
+          <input type="checkbox" id="language-toggle" class="navbar__toggle--language-input" checked />
+          <label for="language-toggle" class="navbar__toggle--language-label">
+        </div>
+      </div>
+      <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+    </nav>
+  </header>
+    
+
+    <main>
+      <section id="home" class="home">
+        <i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+        <i
+          class="bx bxl-javascript home__layer home__layer--2"
+          data-speed="5"
+        ></i>
+        <i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+        <i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+        <i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+        <i
+          class="bx bxl-tailwind-css home__layer home__layer--6"
+          data-speed="-2"
+        ></i>
+        <i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+        <i
+          class="bx bxl-typescript home__layer home__layer--8"
+          data-speed="-2"
+        ></i>
+        <i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+        <i
+          class="bx bxl-graphql home__layer home__layer--10"
+          data-speed="-7"
+        ></i>
+        <i
+          class="bx bx-code-alt home__layer home__layer--11"
+          data-speed="-5"
+        ></i>
+        <div class="home__container grid--container">
+          <div class="home__image">
+            <img src="/assets/img/Cherr1mejor.png" alt="profile photo" />
+          </div>
+          <ul class="home__social">
+            <li class="home__social-link">
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </li>
+
+            <li class="home__social-link">
+              <a href="https://wa.me/584125829858" class="home__social-link" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            </li>
+
+            <li class="home__social-link">
+              <a href="https://www.linkedin.com/in/cherry-coa-02759327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-link"><i class="bx bxl-github"></i
+              ></a>
+            </li>
+
+            <li class="home__social-link">
+              <a href="cherryalexcoabarraez@gmail.com"  target="_blank" class="home__social-link"
+                ><i class="bx bx-envelope"></i
+              ></a>
+            </li>
+          </ul>
+
+          <div class="home__info">
+            <h1 class="home__tittle">Hi, I'm Cherry</h1>
+            <p>
+              As a web developer, I am driven by my passion for technology and continuous learning.I stand out for my experience in frontend and backend development and in the implementation of innovative solutions.
+            </p>
+          </div>
+
+          <div class="home__buttons">
+            <button class="btn btn--primary" type="button">Download cv</button>
+          </div>
+        </div>
+      </section>
+      
+      <section id="about" class="about section">
+        <h2 class="section__title">About me</h2>
+
+        <div class="about__container grid--container">
+          <p>
+            I am passionate about technology, I enjoy creating innovative and optimal innovative and optimal solutions. I stand out for my responsibility in every task I undertake, which makes me a valuable member of any team. any work team. In addition, I enjoy cultivating leadership when the situation calls for it, inspiring others to achieve their goals collaboratively. goals in a collaborative manner. Outside of technology, I find inspiration especially in music and hobbies.
+          </p>
+          <div class="about__cards">
+            <!-- Card 1 -->
+            <div class="about__card">
+              <img
+                src="/assets/img/Cherry2mejor.jpg"
+                alt="photo Cherry"
+                class="about__card--img"
+              />
+            </div>
+            <!-- Card 2 -->
+            <div class="about__card">
+              <img
+                src="/assets/img/Cherr3.jpg"
+                alt="photo Cherry"
+                class="about__card--img"
+              />
+            </div>
+            <!-- Card 3 -->
+            <div class="about__card">
+              <img
+                src="/assets/img/ce2a2bd3-15c9-4e16-bfed-b164280d8f3d.png"
+                alt="photo Cherry"
+                class="about__card--img"
+              />
+            </div>
+          </div>
+        </div>
+
+        
+      </section>
+
+      <section id="skills" class="skills section">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__container grid--container">
+          <p class="skills__container">
+            I stand out for my proficiency in CSS, JavaScript and React, with the skills to design to design dynamic and captivating web interfaces. My solid background my solid background is reflected in the creation of responsive designs and in the interactivity and functionality in front-end projects. front-end projects. In addition, I distinguish myself by using the latest tools and best practices in web development. and best practices in web development.
+          </p>
+          <div class="skills__wrapper">
+            <div class="skills__cards">
+              <!-- card 1 -->
+              <input
+                type="radio"
+                name="slide"
+                id="c1"
+                checked
+                class="skills__inputs"
+              />
+              <label for="c1" class="skills__card">
+                <div class="skills__card-row">
+                  <i class="bx bxl-html5"></i>
+                  <div class="skills__description">
+                    <h3 class="skills__card">HTML</h3>
+                    <p>
+                      Expert in structuring and formatting the content of web pages, using web pages, using HTML tags to define elements such as headings elements such as headings, paragraphs, lists and links, ensuring a solid and semantic base for any project. project.
+                    </p>
+                  </div>
+                </div>
+              </label>
+
+              <!-- Card 2 -->
+              <input
+                type="radio"
+                name="slide"
+                id="c2"
+                checked
+                class="skills__inputs"
+              />
+              <label for="c2" class="skills__card">
+                <div class="skills__card-row">
+                  <i class="bx bxl-css3"></i>
+                  <div class="skills__description">
+                    <h3 class="skills__card">CSS3</h3>
+                    <p>
+                      Skill in defining the visual appearance and design of web pages using design of web pages using CSS, including the application of styles, colors styles, colors, fonts and responsive layouts to ensure an attractive ensure an attractive and consistent presentation on all devices and screen sizes. devices and screen sizes.
+                    </p>
+                  </div>
+                </div>
+              </label>
+
+              <!-- Card 3 -->
+              <input
+                type="radio"
+                name="slide"
+                id="c3"
+                checked
+                class="skills__inputs"
+              />
+              <!-- el atributo checked indica que la casilla estará marcada por defecto cuando se cargue la página, sin que el usuario tenga que hacer clic en ella -->
+              <label for="c3" class="skills__card">
+                <div class="skills__card-row">
+                  <i class="bx bxl-javascript"></i>
+                  <div class="skills__description">
+                    <h3 class="skills__card">JavaScript</h3>
+                    <p>
+                      Extensive experience in the development of interactive and dynamic dynamism in web pages, through the use of modern JavaScript including arrow functions, DOM manipulation, event management and advanced DOM manipulation, event handling, and application of advanced techniques to techniques to enhance the user experience.
+                    </p>
+                  </div>
+                </div>
+              </label>
+              
+
+              <!-- Card 4 -->
+              <input
+                type="radio"
+                name="slide"
+                id="c4"
+                checked
+                class="skills__inputs"
+              />
+              <label for="c4" class="skills__card">
+                <div class="skills__card-row">
+                  <i class="bx bxl-react"></i>
+                  <div class="skills__description">
+                    <h3 class="skills__card">React</h3>
+                    <p>
+                      Proven ability in the creation of interactive and reusable user interfaces using React interactive and reusable user interfaces using React, with proficiency in in the creation and management of standalone components, implementation of state and props, and application of best practices to develop practices to develop modern and efficient web applications. efficient web applications.
+                    </p>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="skills__tags">
+              <h3 class="skills__tags-title">Soft skills</h3>
+              <div class="skills__tags-container">
+                <span class="skills__tag">Responsible</span>
+                <span class="skills__tag">Teamwork</span>
+                <span class="skills__tag">Creative</span>
+                <span class="skills__tag">Timely</span>
+                <span class="skills__tag">Analytical</span>
+                <span class="skills__tag">Self-taught</span>
+
+
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects section">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__container grid--container">
+          <!-- Proyecto 1 -->
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+
+              <div class="projects__image">
+                <img src="/assets/img/project1.jpg" alt="porject 1">
+
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Projects 1</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo neque quidem dolorum animi quasi consequatur perspiciatis ab illum obcaecati praesentium ipsum voluptatibus recusandae error possimus voluptatum, deleniti sint repellendus.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VIEW DEMO</button>
+                  <button class="btn projects__button" type="button">SEE CODE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 2 -->
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+
+              <div class="projects__image">
+                <img src="/assets/img/project2.png" alt="project2 ">
+
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Projects 2</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo neque quidem dolorum animi quasi consequatur perspiciatis ab illum obcaecati praesentium ipsum voluptatibus recusandae error possimus voluptatum, deleniti sint repellendus.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VIEW DEMO</button>
+                  <button class="btn projects__button" type="button">SEE CODE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 1 -->
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+
+              <div class="projects__image">
+                <img src="/assets/img/project3.jpg" alt="project3">
+
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Projects 3</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo neque quidem dolorum animi quasi consequatur perspiciatis ab illum obcaecati praesentium ipsum voluptatibus recusandae error possimus voluptatum, deleniti sint repellendus.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VIEW DEMO</button>
+                  <button class="btn projects__button" type="button">SEE CODE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 1 -->
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+
+              <div class="projects__image">
+                <img src="/assets/img/project4.png" alt="project4" >
+
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Projects 4</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo neque quidem dolorum animi quasi consequatur perspiciatis ab illum obcaecati praesentium ipsum voluptatibus recusandae error possimus voluptatum, deleniti sint repellendus.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VIEW DEMO</button>
+                  <button class="btn projects__button" type="button">SEE CODE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <section id="contact" class="contact section">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__container grid--container">
+          <div class="contact__info">
+            <h3 class="contact__info-title">Contact information</h3>
+            <p class="contact__info-description">Here are the ways to contact me. I wait for you!</p>
+            
+            <address class="contact__info-data">
+              <div class="contact__info-item">
+                <i class='bx bxl-whatsapp' ></i>
+                <span class="contact__info-number">
+                  <a href="https://wa.me/584125829858" target="_blank">Send message to Whatsapp</a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class='bx bx-phone' ></i>
+                <span class="contact__info-number">
+                  <a href="tel:+584125829858" target="_blank">Call now</a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class='bx bx-envelope' ></i>
+                <span class="contact__info-mail">
+                  <a href="mailto:developer.cherrys@gmail.com?subject=Hazme una cotizacion" target="_blank">Send Gmail</a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class='bx bx-map' ></i>
+                <span class="contact__info-map">
+                  Caracas, Venezuela
+                </span>
+              </div>
+            </address>
+
+          </div>
+          <div class="contact__form">
+            <h3 class="contact__form-title">Send message</h3>
+            <form id="form" class="contact__form-container">
+              <div class="contact__form-group">
+                <label form="name" class="contact__form-label">Name</label>
+                <input type="text" name="name" id="name" class="contact__form-input" placeholder="Write your name" >
+
+              </div>
+
+              <div class="contact__form-group">
+                <label form="name" class="contact__form-label">Mail</label>
+                <input type="email" name="email" id="email" class="contact__form-input" pattern="^[a-zA-Z0-9._%+-]+@(gmail|hotmail)\.(com|es)$
+                " placeholder="Write your email">
+                
+              </div>
+
+              <div class="contact__form-group">
+                <label form="subject" class="contact__form-label">Subject</label>
+                <input type="text" name="subject" id="subject" class="contact__form-input" placeholder="WEBPAGE SERVICE" 
+                >
+                
+              </div>
+
+
+              <div class="contact__form-group">
+                <label form="message" class="contact__form-label">Message</label>
+                <textarea type="text" name="message" id="message" class="contact__form-input" cols="30" rows="10" cla></textarea>
+              </div>
+
+               <dialog id="modal" > <!-- La profesora quiere que se muestre en pantalla un mensaje que diga que el formulario fue enviado con exito al darle al boton de enviar-->
+                Form successfully submitted!
+                <button type="reset" id="btn_close_modal">Close</button>
+                <!-- button type reset restablece  todos los campos del formulario al valor que tenían cuando se cargó inicialmente -->
+              </dialog>
+              <button type="submit" id="btn_open_modal" class="btn contact__contact__form-buttonbtn contact__contact__form-button">Send</button>
+              <!-- <button> con el atributo type="submit" es utilizado dentro de un formulario HTML para crear un botón que, al ser presionado, envía los datos del formulario al servidor para su procesamiento. -->
+            
+                
+              <!-- <script>
+                btn_openmodal.onclick = function(){
+                  modal.open = true;
+                }
+
+                btn_close_modal.onclick = function(){
+                    modal.open = false;
+                }
+              </script> -->
+                
+              </form>
+
+
+            
+
+          </div>
+        </div>
+
+      </section >
+    </main>
+    <footer id="footer" class="footer section">
+      <div class="footer__container grid--container">
+        <div class="footer__info">
+          <h3 class="footer__title"> Cherry</h3>
+          <p class="footer__description">I'm a Web Developer, passionate about technology and programming.</p>
+        </div>
+
+        <div class="footer__social">
+          <h3 class="footer__title">Social Networking</h3>
+        
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="pagina facebook" class="fototer_social-link"><i class='bx bxl-facebook-circle' ></i></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a href="pagina github" class="fototer_social-link"><i class='bx bxl-github' ></i></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a href="pagina linkedin" class="fototer_social-link"><i class='bx bxl-linkedin' ></i></i></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a href="pagina instagram" class="fototer_social-link"><i class='bx bxl-instagram' ></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy"></p>
+    </footer>
+    
+
+    <!-- <input class="soy_un_input" type="checkbox" checked >
+    <div>Soy rojo</div>
+
+    <input class="soy_un_input" type="checkbox">
+    <div>Soy rojo</div> -->
+  </body>
+</html>
